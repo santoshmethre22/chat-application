@@ -10,7 +10,10 @@ import Navbar from "./components/Navbar/Navbar.jsx"
 
 function App() {
   return (
-    <>
+
+    <div>
+
+
       {/* todo: here navbar */}
       <Navbar />
       <Routes>
@@ -19,7 +22,9 @@ function App() {
         <Route path='/profile' element ={ <Profile />} />
       </Routes>
       <Toaster />
-    </>
+    
+
+    </div>
   )
 }
 
